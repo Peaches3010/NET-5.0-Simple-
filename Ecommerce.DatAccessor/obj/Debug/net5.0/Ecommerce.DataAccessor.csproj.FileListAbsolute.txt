@@ -1,0 +1,14 @@
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\Ecommerce.DataAccessor.deps.json
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\Ecommerce.DataAccessor.runtimeconfig.json
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\Ecommerce.DataAccessor.runtimeconfig.dev.json
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\Ecommerce.DataAccessor.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\ref\Ecommerce.DataAccessor.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\bin\Debug\net5.0\Ecommerce.DataAccessor.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.AssemblyInfoInputs.cache
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.AssemblyInfo.cs
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.csproj.CoreCompileInputs.cache
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\ref\Ecommerce.DataAccessor.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.DatAccessor\obj\Debug\net5.0\Ecommerce.DataAccessor.genruntimeconfig.cache

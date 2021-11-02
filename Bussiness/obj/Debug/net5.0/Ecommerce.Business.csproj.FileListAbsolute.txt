@@ -1,0 +1,17 @@
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.Business.deps.json
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.Business.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\ref\Ecommerce.Business.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.Business.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.csproj.AssemblyReference.cache
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.AssemblyInfoInputs.cache
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.AssemblyInfo.cs
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.csproj.CoreCompileInputs.cache
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\ref\Ecommerce.Business.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.DataAccessor.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.DataAccessor.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.Contracts.dll
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\bin\Debug\net5.0\Ecommerce.Contracts.pdb
+C:\Users\daodu\source\repos\Ecommrce.WebApp\Bussiness\obj\Debug\net5.0\Ecommerce.Business.csproj.CopyComplete
