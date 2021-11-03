@@ -1,53 +1,47 @@
-@model Ecommerce.WebAPI.ViewModel.CustomAuthentication.LoginAuthModelVM
+﻿@model Ecommerce.WebAPI.ViewModel.CustomAuthentication.LoginAuthModelVM
 
 <div class="login-page">
-    <div class="lead">
-        <h1>Login</h1>
-    </div>
-
     <partial name="_ValidationSummary" />
+    <section class="vh-100 gradient-custom">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
 
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-header">
-                    <h2>Account</h2>
-                </div>
+                            <div class="mb-md-5 mt-md-4 pb-5">
 
-                <div class="card-body">
-                    <form asp-route="Login">
+                                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                                <p class="text-white-50 mb-5">Please enter your login and password!</p>
+                                <form asp-route="Login">
+                                    @if (ViewBag.Error != null)
+                                    {
+                                        <p class="text-danger">@ViewBag.Error</p>
+                                    }
 
-                        @if (ViewBag.Error != null)
-                        {
-                            <p class="text-danger">@ViewBag.Error</p>
-                        }
+                                    <input type="hidden" asp-for="ReturnUrl" />
+                                    <div class="form-outline form-white mb-4">
+                                        <input placeholder="Username" asp-for="Username" class="form-control form-control-lg" />
 
-                        <input type="hidden" asp-for="ReturnUrl" />
+                                    </div>
 
-                        <div class="form-group">
-                            <label asp-for="Username"></label>
-                            <input class="form-control" placeholder="Username" asp-for="Username" autofocus>
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="password" id="typePasswordX" class="form-control form-control-lg" placeholder="Password" asp-for="Password" />
+                                    </div>
+
+                                    <button class="btn btn-outline-light btn-lg px-5" name="button" value="login">Login</button>
+
+                                </form>
+                            </div>
+
+                            <div>
+                                <p class="mb-0">Don't have an account? <a asp-controller="CustomAuthentication" asp-action="Register"
+                           asp-route-returnUrl="@Model.ReturnUrl" class="text-white-50 fw-bold">Sign Up</a></p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label asp-for="Password"></label>
-                            <input type="password" class="form-control" placeholder="Password" asp-for="Password"
-                                autocomplete="off">
-                        </div>
-                        <button class="btn btn-primary" name="button" value="login">Login</button>
-                        <button class="btn btn-secondary" name="button" value="cancel">
-                            Cancel
-                        </button>
-                    </form>
-
-                    <div class="d-flex mt-3">
-                        <a class="btn btn-primary" asp-controller="CustomAuthentication" asp-action="Register"
-                            asp-route-returnUrl="@Model.ReturnUrl">
-                            Register
-                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
