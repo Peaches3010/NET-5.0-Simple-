@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ecommrce.WebApp\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj": {}
+    "D:\\src\\NET-5.0-Simple-\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj": {}
   },
   "projects": {
-    "D:\\Ecommrce.WebApp\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj": {
+    "D:\\src\\NET-5.0-Simple-\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ecommrce.WebApp\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj",
+        "projectUniqueName": "D:\\src\\NET-5.0-Simple-\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj",
         "projectName": "Ecommerce.DataAccessor",
-        "projectPath": "D:\\Ecommrce.WebApp\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj",
+        "projectPath": "D:\\src\\NET-5.0-Simple-\\Ecommerce.DatAccessor\\Ecommerce.DataAccessor.csproj",
         "packagesPath": "C:\\Users\\daodu\\.nuget\\packages\\",
-        "outputPath": "D:\\Ecommrce.WebApp\\Ecommerce.DatAccessor\\obj\\",
+        "outputPath": "D:\\src\\NET-5.0-Simple-\\Ecommerce.DatAccessor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,6 +44,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"

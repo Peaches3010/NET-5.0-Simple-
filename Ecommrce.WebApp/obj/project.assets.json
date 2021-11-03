@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ecommrce.WebApp\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
+      "projectUniqueName": "D:\\src\\NET-5.0-Simple-\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
       "projectName": "Ecommerce.WebApp",
-      "projectPath": "D:\\Ecommrce.WebApp\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
+      "projectPath": "D:\\src\\NET-5.0-Simple-\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
       "packagesPath": "C:\\Users\\daodu\\.nuget\\packages\\",
-      "outputPath": "D:\\Ecommrce.WebApp\\Ecommrce.WebApp\\obj\\",
+      "outputPath": "D:\\src\\NET-5.0-Simple-\\Ecommrce.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJlaEnzuvKBINC5TEZY9Et6iCQWTgnPI9SV/2gg8O1nWPJonWzojcnEcbVTpEFvjpnHbcY9ckcyM1a1CVfAczw==",
+  "dgSpecHash": "t+Nm9v6DFvYsGlpDTkzIshcWbLr9aflMq45u6v8Ru+qfi5YbS2WkhJw0ZaCJdhDiRxlJJMMF3wdgrdWJCrBXWA==",
   "success": true,
-  "projectFilePath": "D:\\Ecommrce.WebApp\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj",
+  "projectFilePath": "D:\\src\\NET-5.0-Simple-\\Ecommerce.Contracts\\Ecommerce.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daodu\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.11\\microsoft.aspnetcore.http.features.5.0.11.nupkg.sha512",
     "C:\\Users\\daodu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",

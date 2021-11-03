@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Ecommerce.DataAccessor
-build_property.ProjectDir = D:\Ecommrce.WebApp\Ecommerce.DatAccessor\
+build_property.ProjectDir = D:\src\NET-5.0-Simple-\Ecommerce.DatAccessor\
