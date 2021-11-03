@@ -4,14 +4,17 @@ using Ecommerce.Contracts.Constants;
 using Ecommerce.Contracts.Dtos;
 using Ecommerce.Contracts.Paging;
 using EnsureThat;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using static IdentityServer4.IdentityServerConstants;
 
 namespace Ecommerce.WebAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(LocalApi.PolicyName)]
     [ApiController]
     public class CategoryController : ControllerBase
     {
@@ -34,6 +37,7 @@ namespace Ecommerce.WebAPI.Controllers
             => await _categoryService.PagedQueryAsync(name, page, limit);
 
         [HttpPost]
+        [Authorize("ADMIN_ROLE_POLICY")]
         public async Task<ActionResult<CategoryDto>> CreateAsync([FromBody]CategoryDto categoryDto)
         {
             Ensure.Any.IsNotNull(categoryDto, nameof(categoryDto));
@@ -46,6 +50,7 @@ namespace Ecommerce.WebAPI.Controllers
          => await _categoryService.GetByIdAsync(id);
 
         [HttpPut]
+        [Authorize("ADMIN_ROLE_POLICY")]
         public async Task<IActionResult> UpdateAsync([FromBody]CategoryDto categoryDto)
         {
             Ensure.Any.IsNotNull(categoryDto, nameof(categoryDto));
@@ -55,6 +60,7 @@ namespace Ecommerce.WebAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize("ADMIN_ROLE_POLICY")]
         public async Task<ActionResult> DeleteAssetAsync([FromRoute] Guid id)
         {
             var categoryDto = await _categoryService.GetByIdAsync(id);

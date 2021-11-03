@@ -1,4 +1,6 @@
-﻿using Ecommerce.DatAccessor.Entities;
+﻿using Ecommerce.DataAccessor.Entities;
+using Ecommerce.DatAccessor.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Ecommerce.DatAccessor.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<User>
     {
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {

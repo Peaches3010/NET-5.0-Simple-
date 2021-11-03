@@ -10,3 +10,15 @@ C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.Contracts\obj\Debug\net5.0
 C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.Contracts\obj\Debug\net5.0\ref\Ecommerce.Contracts.dll
 C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.pdb
 C:\Users\daodu\source\repos\Ecommrce.WebApp\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.csproj.AssemblyReference.cache
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.deps.json
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.dll
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\ref\Ecommerce.Contracts.dll
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.pdb
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.csproj.AssemblyReference.cache
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.AssemblyInfoInputs.cache
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.AssemblyInfo.cs
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.csproj.CoreCompileInputs.cache
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.dll
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\ref\Ecommerce.Contracts.dll
+D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.pdb

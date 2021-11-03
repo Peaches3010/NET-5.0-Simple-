@@ -1,5 +1,7 @@
-﻿using Ecommerce.DatAccessor.Data;
+﻿using Ecommerce.DataAccessor.Entities;
+using Ecommerce.DatAccessor.Data;
 using Ecommerce.DatAccessor.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -154,6 +156,53 @@ namespace Ecommerce.DataAccessor.Data
                         CreatedDate = DateTime.Now
                     }
                     );
+                await context.SaveChangesAsync();
+            }
+
+
+            const string ROLE_ID = "688cc203-353c-4fb9-a309-b2decc46707a";
+            const string USER_ID = "4abead03-d561-44a3-8e59-af5243c7aebb";
+            const string USER_ROLEID = "b6ec3ad1-8b6e-4e19-87b8-e863b55526bc";
+            var hasher = new PasswordHasher<User>();
+            if (!context.Users.Any())
+            {
+                context.Users.Add
+                    (
+                    new User()
+                    {
+                        Id = USER_ID,
+                        UserName = "admin",
+                        NormalizedUserName = "admin",
+                        Email = "admin@gmail.com",
+                        NormalizedEmail = "admin@gmail.com",
+                        EmailConfirmed = true,
+                        PasswordHash = hasher.HashPassword(null, "Abc@123"),
+                        SecurityStamp = string.Empty
+                    }
+                    );
+                await context.SaveChangesAsync();
+            }
+            if (!context.Roles.Any())
+            {
+                context.Roles.Add(
+                    new IdentityRole
+                    {
+                        Id = USER_ROLEID,
+                        Name = "User",
+                        NormalizedName = "User"
+                    });
+                await context.SaveChangesAsync();
+            }
+
+            if(!context.UserRoles.Any())
+            {
+                context.UserRoles.Add
+                    (
+                    new IdentityUserRole<string>
+                    {
+                        RoleId = ROLE_ID,
+                        UserId = USER_ID,
+                    });
                 await context.SaveChangesAsync();
             }
         }

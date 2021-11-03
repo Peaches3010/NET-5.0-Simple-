@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6D1ONHEeL7SPqEn4iMyDezld1+5Qf89jbKCub/qEjuUFbOW7Xbs6Zf1hDUwaAMK8HzbkPrtr1CZ2IseXzZTlHA==",
+  "dgSpecHash": "wwobkKk58l3j9U/cqbOoQj1CNEaSWcQVpV9RfPw6q2CrrQoNs7VdGsTao/LoM2ieAdTbp8C2l5TIjPL9yH3IcQ==",
   "success": true,
-  "projectFilePath": "D:\\Ecommrce.WebApp\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
+  "projectFilePath": "D:\\src\\NET-5.0-Simple-\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
