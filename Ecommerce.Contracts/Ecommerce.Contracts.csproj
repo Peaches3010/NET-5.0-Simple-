@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Exceptions\" />
-    <Folder Include="Settings\" />
+    <Compile Remove="Exceptions\**" />
+    <Compile Remove="Settings\**" />
+    <EmbeddedResource Remove="Exceptions\**" />
+    <EmbeddedResource Remove="Settings\**" />
+    <None Remove="Exceptions\**" />
+    <None Remove="Settings\**" />
   </ItemGroup>
 
   <ItemGroup>

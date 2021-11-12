@@ -17,6 +17,11 @@ namespace Ecommerce.Business.Interfaces
 
         Task<ProductDto> GetByIdAsync(Guid id);
 
+        Task<IEnumerable<ProductDto>> GetProductByCategoryId(Guid id);
+
+        Task<IEnumerable<ProductDto>> GetBestProduct();
+
+        Task<IEnumerable<ProductDto>> GetFeaturedProduct();
         Task<ProductDto> AddAsync(ProductCreateRequest request);
 
         Task DeleteAsync(Guid id);

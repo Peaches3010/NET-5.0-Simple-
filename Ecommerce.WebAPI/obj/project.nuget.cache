@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qfuf7PP3F7Ga3DBBsqJNYq34ytoSGOfNwcZi7SlE1HVZqvZAEKk8Oz8SSfVJteJldpTEm4EH+XnNLm8zhTE/gA==",
+  "dgSpecHash": "hgc5uyUyQ2xqJj7gauf16+SLn1NdWgJYgPrRUydk0qdIQ0Y7Aw1vz83+j3sJqnX+RVLHhPq9CA3YwgXzs+0R6g==",
   "success": true,
-  "projectFilePath": "D:\\src\\NET-5.0-Simple-\\Ecommerce.WebAPI\\Ecommerce.WebAPI.csproj",
+  "projectFilePath": "D:\\Ecommerce\\NET-5.0-Simple-\\Ecommerce.WebAPI\\Ecommerce.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daodu\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\daodu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

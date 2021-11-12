@@ -28,11 +28,11 @@ namespace Ecommerce.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ProductDto>> AddProductAsync([FromForm]ProductCreateRequest request)
+        public async Task<ActionResult<ProductDto>> AddProductAsync([FromForm] ProductCreateRequest request)
         {
-            var product = await _productService.AddAsync(request); 
+            var product = await _productService.AddAsync(request);
 
-            if( request.ImageUrl != null)
+            if (request.ImageUrl != null)
             {
                 product.ImageUrl = await SaveFile(request.ImageUrl);
             }
@@ -46,12 +46,17 @@ namespace Ecommerce.WebAPI.Controllers
             return products;
         }
 
+        [HttpGet("/sameproduct/{id}")]
+        public async Task<IEnumerable<ProductDto>> GetSameProduct(Guid id)
+        {
+            return await _productService.GetProductByCategoryId(id);
+        }
         [HttpPut("{id}")]
-        public async Task<ActionResult> UpdateProductAsync(Guid id,[FromForm]ProductUpdateRequest request)
+        public async Task<ActionResult> UpdateProductAsync(Guid id, [FromForm] ProductUpdateRequest request)
         {
 
             var productDb = await _productService.GetByIdAsync(id);
-            if(productDb == null)
+            if (productDb == null)
             {
                 return NotFound();
             }
@@ -64,18 +69,23 @@ namespace Ecommerce.WebAPI.Controllers
             productDb.CategoryId = request.CategoryId;
 
             // update Image
-            if(request.ImageUrl != null)
+            if (request.ImageUrl != null)
             {
                 productDb.ImageUrl = await SaveFile(request.ImageUrl);
-            }    
-          
+            }
+
             await _productService.UpdateAsync(request);
-            
+
             return NoContent();
+        }
+        [HttpGet("featuredProduct")]
+        public async Task<IEnumerable<ProductDto>> GetFeaturedProduct()
+        {
+            return await _productService.GetFeaturedProduct();
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> DeleteProductAsync([FromRoute] Guid id) 
+        public async Task<ActionResult> DeleteProductAsync([FromRoute] Guid id)
         {
             var productDto = await _productService.GetByIdAsync(id);
             Ensure.Any.IsNotNull(productDto, nameof(productDto));

@@ -16,6 +16,8 @@ namespace Ecommerce.Contracts.Dtos.ProductDtos
 
         public string ImageUrl { get; set; }
 
+        public int ViewCount { get; set; }
+
         public decimal Price { get; set; }
 
         public decimal? Cost { get; set; }

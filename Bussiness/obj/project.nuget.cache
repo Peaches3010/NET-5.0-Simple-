@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45pbGB8TV+LpzvE3ifzNCa33Tee/40yGLQWN/rLV/0RLFm4kmdYbXFdVAEUgpJuXeunw+8djtjxiasCwDBP3tg==",
+  "dgSpecHash": "E+4Q1LbCbar04AzpnHDOGoanBcVWMT0o0rYFQQAgxyCVpMsp7gxSweTqHKP/FwoMS7VToAYYvByfgB9FbbbKDA==",
   "success": true,
-  "projectFilePath": "D:\\src\\NET-5.0-Simple-\\Bussiness\\Ecommerce.Business.csproj",
+  "projectFilePath": "D:\\Ecommerce\\NET-5.0-Simple-\\Bussiness\\Ecommerce.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daodu\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\daodu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

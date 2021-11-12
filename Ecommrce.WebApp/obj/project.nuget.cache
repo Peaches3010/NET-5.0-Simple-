@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wwobkKk58l3j9U/cqbOoQj1CNEaSWcQVpV9RfPw6q2CrrQoNs7VdGsTao/LoM2ieAdTbp8C2l5TIjPL9yH3IcQ==",
+  "dgSpecHash": "f/QXbZfTmyQ6JI0YUwM6SNlW8EY6FkZlWHdENo7yLu4Z/1fPT+yZYrZ3XAvWeb63/hVRBTEYwqp0hz/kZo0NdA==",
   "success": true,
-  "projectFilePath": "D:\\src\\NET-5.0-Simple-\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Ecommerce\\NET-5.0-Simple-\\Ecommrce.WebApp\\Ecommerce.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daodu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

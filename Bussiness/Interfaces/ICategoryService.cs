@@ -2,8 +2,6 @@
 using Ecommerce.Contracts.Paging;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Ecommerce.Business.Interfaces
@@ -16,6 +14,7 @@ namespace Ecommerce.Business.Interfaces
         Task<PageResponseModel<CategoryDto>> PagedQueryAsync(string name, int page, int limit);
 
         Task<CategoryDto> GetByIdAsync(Guid id);
+
 
         Task<CategoryDto> AddAsync(CategoryDto categoryDto);
 

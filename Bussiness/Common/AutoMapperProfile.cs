@@ -1,5 +1,7 @@
 ﻿using Ecommerce.Contracts.Dtos;
 using Ecommerce.Contracts.Dtos.ProductDtos;
+using Ecommerce.Contracts.Dtos.UserDtos;
+using Ecommerce.DataAccessor.Entities;
 using Ecommerce.DatAccessor.Entities;
 using System;
 using System.Collections.Generic;
@@ -27,6 +29,8 @@ namespace Ecommerce.Business.Common
             CreateMap<ProductUpdateRequest, ProductDto>().ReverseMap()
                                                          .ForMember(x => x.ImageUrl, i => i.Ignore());
 
+            CreateMap<UserDto, User>();
+
         }
 
         private void FromDataAccessorLayer()
@@ -38,6 +42,8 @@ namespace Ecommerce.Business.Common
                                                       .ForMember(x => x.ImageUrl, i => i.Ignore());
             CreateMap<Product, ProductUpdateRequest>().ReverseMap()
                                                       .ForMember(x => x.ImageUrl, i => i.Ignore());
+
+            CreateMap<User, UserDto>();
         }
     }
 }
