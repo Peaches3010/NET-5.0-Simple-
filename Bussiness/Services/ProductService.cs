@@ -46,6 +46,11 @@ namespace Ecommerce.Business.Services
             return _mapper.Map<IEnumerable<ProductDto>>(product);
         }
 
+        public Task<IEnumerable<ProductDto>> GetBestProduct()
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<ProductDto> GetByIdAsync(Guid id)
         {
             var product = await _repository.GetByIdAsync(id);
@@ -56,6 +61,20 @@ namespace Ecommerce.Business.Services
             }
 
             return _mapper.Map<ProductDto>(product);
+        }
+
+        public async Task<IEnumerable<ProductDto>> GetFeaturedProduct()
+        {
+            var featuredProduct = await _repository.Entites.Where(p => p.IsFeatured == true)
+                                                           .OrderByDescending(p => p.ViewCount).ToListAsync();
+
+            return _mapper.Map<IEnumerable<ProductDto>>(featuredProduct);
+        }
+
+        public async Task<IEnumerable<ProductDto>> GetProductByCategoryId(Guid id)
+        {
+            var product = await _repository.Entites.Where(p => p.CategoryId == id).ToListAsync();
+            return _mapper.Map<IEnumerable<ProductDto>>(product);                                   
         }
 
         public async Task<PageResponseModel<ProductDto>> PagedQueryAsync(string name, int page, int limit)

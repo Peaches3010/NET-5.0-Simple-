@@ -22,3 +22,15 @@ D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.
 D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.dll
 D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\ref\Ecommerce.Contracts.dll
 D:\src\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.pdb
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.deps.json
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.dll
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\ref\Ecommerce.Contracts.dll
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\bin\Debug\net5.0\Ecommerce.Contracts.pdb
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.csproj.AssemblyReference.cache
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.AssemblyInfoInputs.cache
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.AssemblyInfo.cs
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.csproj.CoreCompileInputs.cache
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.dll
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\ref\Ecommerce.Contracts.dll
+D:\Ecommerce\NET-5.0-Simple-\Ecommerce.Contracts\obj\Debug\net5.0\Ecommerce.Contracts.pdb

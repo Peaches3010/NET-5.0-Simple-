@@ -23,6 +23,8 @@ namespace Ecommerce.DatAccessor.Entities
 
         public decimal? Cost { get; set; }
 
+        public int ViewCount { get; set; }
+
         public bool IsFeatured { get; set; }
 
         public Guid? CategoryId { get; set; }

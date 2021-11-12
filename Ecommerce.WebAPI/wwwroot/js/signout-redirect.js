@@ -1,5 +1,5 @@
 ﻿window.addEventListener("load", function () {
-    var a = document.querySelector("a.PostLogoutRedirectUri");
+    var Tas;
     if (a) {
         window.location = a.href;
     }
